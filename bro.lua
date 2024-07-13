@@ -1,3 +1,11 @@
+game.StarterGui:SetCore("SendNotification", {
+	Title = "KeySystem load "..identifyexecutor""; -- the title (ofc)
+	Text = "Check Key(V1.2) User:["..game.Players.LocalPlayer.Name.."] Welcome"; -- what the text says (ofc)
+	Icon = "rbxassetid://18394425047"; -- the image if u want. 
+	Duration = 2.25; -- how long the notification should in seconds
+})
+wait(1)
+
 -- 创建ScreenGui
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
